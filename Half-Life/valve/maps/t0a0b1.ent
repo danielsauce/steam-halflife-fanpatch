@@ -1797,7 +1797,7 @@
 }
 {
 "model" "*105"
-"message" "Crouch Down By Pressing [DUCK] \n Look At Grating And Press [ATTACK1] \n Drop Down Into Hole"
+"message" "HZGRATING"
 "delay" "0"
 "sounds" "0"
 "style" "32"

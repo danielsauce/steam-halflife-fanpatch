@@ -3813,7 +3813,7 @@
 {
 "model" "*157"
 "target" "HZFIRETEXT"
-"message" "Press [ATTACK1] To Fire Weapon \n Press [RELOAD] To Reload At Will \n Press [ATTACK2] To Fire Weapon's Alternate Ammo"
+"message" ""
 "delay" "0"
 "sounds" "0"
 "style" "32"
@@ -3821,7 +3821,7 @@
 }
 {
 "model" "*158"
-"message" "Swim Up To Hole For Air"
+"message" "HZSWIMUP"
 "delay" "0"
 "sounds" "0"
 "style" "32"
@@ -3945,7 +3945,7 @@
 }
 {
 "model" "*167"
-"message" "Crouch Down By Pressing [DUCK] \n Look At Grating And Press [ATTACK1] \n Drop Down Into Hole"
+"message" "HZGRATING"
 "delay" "0"
 "sounds" "0"
 "style" "32"

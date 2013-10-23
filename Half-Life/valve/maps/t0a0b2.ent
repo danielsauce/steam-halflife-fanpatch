@@ -2153,7 +2153,7 @@
 {
 "model" "*66"
 "target" "HZFIRETEXT"
-"message" "Press [ATTACK1] To Fire Weapon \n Press [RELOAD] To Reload At Will \n Press [ATTACK2] To Fire Weapon's Alternate Ammo"
+"message" ""
 "delay" "0"
 "sounds" "0"
 "style" "32"
