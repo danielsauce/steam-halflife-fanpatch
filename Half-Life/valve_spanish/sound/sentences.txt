@@ -55,9 +55,9 @@ HG_CHARGE2 sentences/HG_CHARGE2
 HG_CHARGE3 sentences/HG_CHARGE3
 
 // Idle
-HG_IDLE0 sentences/HG_IDLE0
-HG_IDLE1 sentences/HG_IDLE1
-HG_IDLE2 sentences/HG_IDLE2
+HG_IDLE0 sentences/HG_IDLE1
+HG_IDLE1 sentences/HG_IDLE2
+HG_IDLE2 sentences/HG_IDLE3
 
 HG_QUEST0 sentences/HG_QUEST0
 HG_QUEST1 sentences/HG_QUEST1 
@@ -118,6 +118,8 @@ HG_DRAG4A hgrunt/c2a3_hg_4drag
 HG_DRAG5A hgrunt/c2a3_hg_5drag
 HG_DRAG6A hgrunt/c2a3_hg_laugh
 
+HG_SUCKS hgrunt/hg_sucks
+HG_CIVVIES hgrunt/hg_civvies
 // BASE COMPUTER
 // C1A0 intercom\
 C1A0_START sentences/dadeda C1A0_START 
@@ -201,6 +203,7 @@ C1A4_6 sentences/ buzwarn buzwarn C1A4_6
 C1A4_7 sentences/ buzwarn buzwarn C1A4_7
 C1A4_8 sentences/ buzwarn buzwarn C1A4_8
 
+FUEL_OFF fuel and power must be engaged to activate rocket test fire
 
 // C2A1 intercom track control sector e
 C2A1_0 sentences/ buzwarn buzwarn C2A1_0
@@ -264,13 +267,14 @@ C3A1_7 sentences/buzwarn buzwarn C3A1_7
 C3A1_8 sentences/buzwarn buzwarn C3A1_8
 C3A1_9 sentences/bizwarn bizwarn C3A1_9
 
-//  intercom lambda reactor complex.main reactor facility. radioactive materials handling bay
+// C3A2 intercom lambda reactor complex.main reactor facility. radioactive materials handling bay
+
 C3A2_0 sentences/bizwarn bizwarn C3A2_0
 C3A2_1 sentences/bizwarn bizwarn C3A2_1
 C3A2_2 sentences/buzwarn buzwarn C3A2_2
-C3A2_3 sentences/bizwarn bizwarn C3A2_3
+C3A2_3 sentences/ bizwarn bizwarn bizwarn C3A2_3
 C3A2_4 sentences/bizwarn bizwarn C3A2_4
-C3A2_5 sentences/bizwarn bizwarn /C3A2_5
+C3A2_5 sentences/bizwarn bizwarn C3A2_5
 C3A2_6 sentences/bizwarn bizwarn C3A2_6
 C3A2_7 sentences/bizwarn bizwarn C3A2_7
 
@@ -446,7 +450,7 @@ HEV_A10 sentences/HEV_A10 bell
 
 // medical
 HEV_DEAD0 fvox/beep beep beep beep beep beep flatline
-HEV_DEAD2 fvox/beep beep beep beep beep flatline
+HEV_DEAD1 fvox/beep beep beep beep beep flatline
 
 HEV_MED0 sentences/boop boop boop HEV_MED0
 HEV_MED1 sentences/boop boop boop HEV_MED1
